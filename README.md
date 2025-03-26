@@ -1,12 +1,100 @@
-# React + Vite
+# 🎬 MovieFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application that helps users discover and search through thousands of movies using TMDB API, with trending movies tracking powered by Appwrite.
 
-Currently, two official plugins are available:
+![Hero Banner](/public/hero.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **🔍 Real-time Search**: Instantly search through thousands of movies
+- **📈 Trending Movies**: Track and display most searched movies
+- **🎯 Detailed Movie Cards**: View essential movie information including:
+  - Title
+  - Rating
+  - Release Year
+  - Original Language
+  - Movie Poster
+- **💫 Modern UI**: Clean and responsive design with smooth animations
+- **⚡ Performance**: Optimized with debounced search for better performance
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Built With
+
+- **Frontend**: React + Vite
+- **Styling**: TailwindCSS
+- **Backend**: Appwrite
+- **API**: TMDB (The Movie Database)
+- **State Management**: React Hooks
+- **Performance**: React-Use (Debounce)
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+```bash
+git clone <repository-url>
+cd movie-project
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Set up environment variables**
+Create a `.env.local` file based on `.env.example`:
+```env
+VITE_TMDB_API_KEY=your_tmdb_api_key
+VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
+VITE_APPWRITE_COLLECTION_ID=your_appwrite_collection_id
+```
+
+4. **Run the development server**
+```bash
+npm run dev
+```
+
+## 📱 Features Preview
+
+### Search Movies
+- Real-time search with debouncing
+- Dynamic results update
+- Loading states with spinner
+
+### Movie Display
+- Grid layout for movie cards
+- Responsive design for all screen sizes
+- Fallback image for missing posters
+
+### Trending Section
+- Top 5 most searched movies
+- Automatic updates based on user searches
+- Horizontal scrollable list
+
+## 🔧 Configuration
+
+The project uses several key configurations:
+
+- **Vite**: Modern build tool for faster development
+- **ESLint**: Code quality and consistency
+- **TailwindCSS**: Utility-first CSS framework
+- **Appwrite**: Backend as a Service for trending movies
+
+## 📝 License
+
+This project is MIT licensed.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 💬 Contact
+
+Mehmet Kaplan - [mehmetkaplan20044002@gmail.com]
+
+Project Link: (https://github.com/MehmetKaplan33/react-movie-app)
