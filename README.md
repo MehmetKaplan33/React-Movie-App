@@ -30,7 +30,7 @@ A modern React application that helps users discover and search through thousand
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/MehmetKaplan33/react-movie-app
 cd movie-project
 ```
 
@@ -95,6 +95,6 @@ Contributions, issues, and feature requests are welcome!
 
 ## 💬 Contact
 
-Mehmet Kaplan - [mehmetkaplan20044002@gmail.com]
+Mehmet Kaplan - mehmetkaplan20044002@gmail.com
 
-Project Link: (https://github.com/MehmetKaplan33/react-movie-app)
+Project Link: https://github.com/MehmetKaplan33/react-movie-app
