@@ -95,6 +95,9 @@ Contributions, issues, and feature requests are welcome!
 
 ## 💬 Contact
 
-Mehmet Kaplan - mehmetkaplan20044002@gmail.com
+Mehmet Kaplan
 
-Project Link: https://github.com/MehmetKaplan33/react-movie-app
+- GitHub: [@Kaplan_Mehmet_33]([https://github.com/mehmetkaplan](https://github.com/MehmetKaplan33))
+- LinkedIn: [Mehmet Kaplan](https://www.linkedin.com/in/mehmet-kaplan-601013294/)
+
+Proje Linki: [https://github.com/MehmetKaplan33/React-Movie-App](https://github.com/MehmetKaplan33/React-Movie-App)
